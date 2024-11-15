@@ -2,8 +2,8 @@ For Windows users, you can use the following commands to set up the project:
 ```powershell
 git clone https://github.com/dotslash-flame/AstroNavs.git  
 cd AstroNavs  
-pip install venv  
 python -m venv .venv  
+Set-ExecutionPolicy Unrestricted -Scope Process
 .\.venv\Scripts\Activate.ps1  
 pip install -r requirements.txt  
 ```
